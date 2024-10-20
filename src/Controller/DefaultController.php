@@ -165,25 +165,13 @@ $config->delete();
   $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'fedezomen','name' => 'IGEN',]); $term->save();
   $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'fedezomen','name' => 'NEM',]); $term->save();
 
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'hirek','name' => 'Egyéb hírek',]); $term->save(); 
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'hirek','name' => 'Lovaregylet hírei',]); $term->save(); 
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'hirek','name' => 'Szolgáltatások',]); $term->save(); 
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'hirek','name' => 'Tenyésztés',]); $term->save(); 
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'hirek','name' => 'Versenyzés',]); $term->save(); 
-
+  
   $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'lo_vagy_fed','name' => '?',]); $term->save(); 
   $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'lo_vagy_fed','name' => 'FEDEZTETES',]); $term->save();   
   $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'lo_vagy_fed','name' => 'LO',]); $term->save();   
   $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'lo_vagy_fed','name' => 'SIKERTELEN FEDEZTETES',]); $term->save();     
 
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'publikaciok','name' => 'egyéb publikációk',]); $term->save();  
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'publikaciok','name' => 'idézetek',]); $term->save();
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'publikaciok','name' => 'Lovaregylet publikációi',]); $term->save();
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'publikaciok','name' => 'saját publikációk',]); $term->save();
-  $term = \Drupal\taxonomy\Entity\Term::create(['vid' => 'publikaciok','name' => 'tudományos linkek',]); $term->save();  
   
-
-    
     
     
     return [

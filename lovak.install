@@ -5,7 +5,7 @@
  */
 function lovak_uninstall() {
 
- //pusholva?
+ //pusholva
  // A tartalomtípus gépi neve, amit törölni szeretnél.
   $content_type = 'lovak';
   // Betöltjük az entity_type.manager szolgáltatást.

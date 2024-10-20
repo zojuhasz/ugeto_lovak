@@ -1,0 +1,21 @@
+uuid: e6f6b021-e5ae-4613-834d-b6f2ea1a5ac0
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fedez
+    - node.type.lovak
+_core:
+  default_config_hash: svTg4e4AlMEaH5Qb8l5DBhRs9F14iLIAxKIbiKRB_Ok
+id: node.lovak.field_fedez
+field_name: field_fedez
+entity_type: node
+bundle: lovak
+label: fedez
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

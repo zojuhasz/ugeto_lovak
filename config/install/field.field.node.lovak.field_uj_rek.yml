@@ -1,0 +1,21 @@
+uuid: 1566c814-2151-433b-b0d7-6163629b6c6b
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_uj_rek
+    - node.type.lovak
+_core:
+  default_config_hash: 3J1kfHSlToel4vAwfWRjKi2sMffYvXLvz_7s3VJnPKU
+id: node.lovak.field_uj_rek
+field_name: field_uj_rek
+entity_type: node
+bundle: lovak
+label: uj_rek
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

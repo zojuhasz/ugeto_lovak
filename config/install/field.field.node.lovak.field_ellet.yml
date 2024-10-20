@@ -1,0 +1,21 @@
+uuid: d953fd9e-2df1-4e97-93ee-c5c93518f046
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ellet
+    - node.type.lovak
+_core:
+  default_config_hash: juI_x3DXOTgXmFY2gTZ_Cv3uiNatBmB1KaI1F-33Xa4
+id: node.lovak.field_ellet
+field_name: field_ellet
+entity_type: node
+bundle: lovak
+label: ellet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 02e4d245-1b4d-4e09-b81c-a22834c5f99a
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bId7GQfPqbK5IRejj7PJceb_zN-d9U2UgSpsZrJ-vnY
+id: node.field_penz
+field_name: field_penz
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

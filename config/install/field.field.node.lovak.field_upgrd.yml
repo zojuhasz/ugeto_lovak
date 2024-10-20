@@ -1,0 +1,21 @@
+uuid: 94ff69c8-47b1-4592-8e41-f32de0139410
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upgrd
+    - node.type.lovak
+_core:
+  default_config_hash: w3VcLL638Epi0CKw89IiU8mmdifvQKWtPB8sVyh07U8
+id: node.lovak.field_upgrd
+field_name: field_upgrd
+entity_type: node
+bundle: lovak
+label: upgrd
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

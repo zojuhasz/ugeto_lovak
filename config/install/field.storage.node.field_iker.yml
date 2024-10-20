@@ -1,0 +1,23 @@
+uuid: ec44fb07-5ead-490d-b67b-932a5d83f5a1
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: XT7qPdW21BVd1uIr_ssTROUt-Xb3wVx9UHQ317y95DU
+id: node.field_iker
+field_name: field_iker
+entity_type: node
+type: string
+settings:
+  max_length: 3
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

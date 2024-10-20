@@ -1,0 +1,21 @@
+uuid: e7efd8ef-901b-493d-b7b3-bc17cdcc6843
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nevel_tenyeszt
+    - node.type.lovak
+_core:
+  default_config_hash: 69-DUxo4MpjVSzFUiXLlNcGB9_7s1VGw75uMBjhoMK8
+id: node.lovak.field_nevel_tenyeszt
+field_name: field_nevel_tenyeszt
+entity_type: node
+bundle: lovak
+label: nevel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

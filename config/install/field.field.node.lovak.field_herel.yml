@@ -1,0 +1,21 @@
+uuid: 569729d2-e883-4364-8a88-a03de694c4b7
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_herel
+    - node.type.lovak
+_core:
+  default_config_hash: y5popcPIU3ysFZh9ktVt_uowPVBhMrlZ-ePi6csHuLM
+id: node.lovak.field_herel
+field_name: field_herel
+entity_type: node
+bundle: lovak
+label: herel
+description: 'herélés ideje'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

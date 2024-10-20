@@ -1,0 +1,10 @@
+uuid: ea9b9192-3611-4f3f-ac51-96da0af73820
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mGsgRSz_YwICDg65t3jOYTDlp4eDu4_O5jQgBucy8-k
+name: Elfogadás
+vid: elfogadas
+description: 'ÁSZF elfogadása'
+weight: 0

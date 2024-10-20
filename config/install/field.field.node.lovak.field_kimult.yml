@@ -1,0 +1,21 @@
+uuid: 5bbbd66f-00f4-4a42-89e6-9a85e42a88ac
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kimult
+    - node.type.lovak
+_core:
+  default_config_hash: Bhl0Jg8oaFCkl_NNiOtAir2i-pVhHoC0dALLPt_6rbY
+id: node.lovak.field_kimult
+field_name: field_kimult
+entity_type: node
+bundle: lovak
+label: kimult
+description: 'Kimúlás ideje'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

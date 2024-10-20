@@ -1,0 +1,23 @@
+uuid: 3c90f33c-eb88-4a35-b928-8770f8cf3a52
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: mqfv0oBrq27zyB6xggqUdPRM5mDC8uvNJr6tToHBOtY
+id: node.field_belyeg
+field_name: field_belyeg
+entity_type: node
+type: string
+settings:
+  max_length: 10
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

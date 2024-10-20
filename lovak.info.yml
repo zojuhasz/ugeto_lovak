@@ -1,0 +1,10 @@
+name: 'Lovak'
+type: module
+description: 'Lovak TESZT module'
+core_version_requirement: ^10 || ^11
+package: 'Custom'
+
+# Information added by Drupal.org packaging script on 2024-02-07
+version: '11.x-4.3'
+project: 'lovak'
+datestamp: 1575735787

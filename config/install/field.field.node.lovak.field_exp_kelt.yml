@@ -1,0 +1,21 @@
+uuid: 4482f6ca-f1c0-40bc-b0f6-a99d43e3a333
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exp_kelt
+    - node.type.lovak
+_core:
+  default_config_hash: 32BONRKQhxfSy2pQRQn6vt8dH0ddcbuGWKDYaa8BpxQ
+id: node.lovak.field_exp_kelt
+field_name: field_exp_kelt
+entity_type: node
+bundle: lovak
+label: exp_kelt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 880944a2-b550-487d-a9f3-cbed2b4897b2
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: kzRDtZ9dVJfK1lAnEaHVkUrTKc0BTwEjlcZ51vXegZs
+id: node.field_orszag
+field_name: field_orszag
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

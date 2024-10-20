@@ -1,0 +1,10 @@
+uuid: be127db3-cf94-4ec7-a0c2-b81476cc9baf
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5r4tmQmQRbmjBzulHASYejYLNwEPlsuOGRTDJFp0kWU
+name: orszag
+vid: orszag
+description: ország
+weight: 0

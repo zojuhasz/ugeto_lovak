@@ -1,0 +1,31 @@
+uuid: 8ee41404-b198-4adb-a46d-8ffef419b629
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lo_vagy_fed
+    - node.type.lovak
+    - taxonomy.vocabulary.lo_vagy_fed
+_core:
+  default_config_hash: nLinUa1FvxB3VsvRIQDdbB2zi6GW_bDcLtepnAHeOGI
+id: node.lovak.field_lo_vagy_fed
+field_name: field_lo_vagy_fed
+entity_type: node
+bundle: lovak
+label: lo_vagy_fed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      lo_vagy_fed: lo_vagy_fed
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 02570c65-78ea-43b3-b2cb-4dd45b51ac3b
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jegyzet
+    - node.type.lovak
+_core:
+  default_config_hash: kfpFyoMkq3nTYdEP2LxwmzaZf1fR8dCv9JiaxnGosWU
+id: node.lovak.field_jegyzet
+field_name: field_jegyzet
+entity_type: node
+bundle: lovak
+label: jegyzet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 0c1dcd06-0f5a-4815-a1fa-e21182593b9d
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ueln
+    - node.type.lovak
+_core:
+  default_config_hash: os9AZojIP9JkH1RidP9kKnS4NrMdyZSXxlFd8CRKGa4
+id: node.lovak.field_ueln
+field_name: field_ueln
+entity_type: node
+bundle: lovak
+label: ueln
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

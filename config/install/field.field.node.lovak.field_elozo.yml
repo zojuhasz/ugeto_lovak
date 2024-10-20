@@ -1,0 +1,21 @@
+uuid: 3ec8f9f9-8764-4aa4-9459-6acd7475b1c7
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elozo
+    - node.type.lovak
+_core:
+  default_config_hash: '-kAuu3bptbB9D2HsX70JuN8EVLC7kep5r3wGlctywnA'
+id: node.lovak.field_elozo
+field_name: field_elozo
+entity_type: node
+bundle: lovak
+label: elozo
+description: 'előző neve'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 223e6a27-ed4e-4cc4-bc22-03e6bb22ff79
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_egybevetes
+    - node.type.lovak
+_core:
+  default_config_hash: rHKbPaA87WNycUUBb3tnHkY6rgNTM6g7qz1ZjQKGe6s
+id: node.lovak.field_egybevetes
+field_name: field_egybevetes
+entity_type: node
+bundle: lovak
+label: egybevetes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

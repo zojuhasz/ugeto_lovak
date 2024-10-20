@@ -1,0 +1,23 @@
+uuid: 728019b6-c532-4f5e-b5f5-d5d6179f9b1b
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: V9tTT-IBZkHyFztUh50BSKUP4iubuoZKkYzmxf7y-U0
+id: node.field_herel
+field_name: field_herel
+entity_type: node
+type: string
+settings:
+  max_length: 10
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

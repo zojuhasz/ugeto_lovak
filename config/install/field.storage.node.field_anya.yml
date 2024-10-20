@@ -1,0 +1,21 @@
+uuid: 73953c80-9813-4bdc-9ed7-9eb3e2b7214e
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fv2N5sdIJUeKhzgLdWV0dohtJdtWWGlr_obQNNHjcBw
+id: node.field_anya
+field_name: field_anya
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: c1a1a0e5-4d3e-4f8f-8868-9c94f6886f5a
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_penz
+    - node.type.lovak
+_core:
+  default_config_hash: 6Tiz64gHL7p06UT-i57rtay890Cf3OmCAGLdi0jM_vY
+id: node.lovak.field_penz
+field_name: field_penz
+entity_type: node
+bundle: lovak
+label: penz
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

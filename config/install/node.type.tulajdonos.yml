@@ -1,0 +1,17 @@
+uuid: 49bcbc45-1e0e-4e03-9485-e35a10c04c73
+langcode: hu
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: tulajdonos_v_tenyeszto
+type: tulajdonos
+description: 'ló tulajdonosa, v. tenyésztöje'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

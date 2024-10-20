@@ -1,0 +1,29 @@
+uuid: abb4a9f1-6ede-420b-93f7-e17d69be0d1d
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_apa
+    - node.type.lovak
+_core:
+  default_config_hash: r9QnOb7rpMuZKiJlrn0iRsSbG-fe5WLqkUg1RK-jMIA
+id: node.lovak.field_apa
+field_name: field_apa
+entity_type: node
+bundle: lovak
+label: apa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      lovak: lovak
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,10 @@
+uuid: e4832bb7-e4cf-47d7-8e86-aab6faae0fef
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DhKJrHYgjYknt-4DFNHilRSG0DNNF9NEyDe3Mvc7Xjk
+name: lo_vagy_fed
+vid: lo_vagy_fed
+description: 'ló vagy fedeztetés vagy sikertelen fedeztetés'
+weight: 0

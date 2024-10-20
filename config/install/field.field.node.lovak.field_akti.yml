@@ -1,0 +1,21 @@
+uuid: 33fc0090-224f-4833-9969-7461e752e2c2
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_akti
+    - node.type.lovak
+_core:
+  default_config_hash: IxeCc2F_4vv9urAhWhBqkll0rApB3YMUk6ngZSFsXWg
+id: node.lovak.field_akti
+field_name: field_akti
+entity_type: node
+bundle: lovak
+label: aktiv
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: aef302dc-62c6-418d-8898-6b54fcd6c521
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: BaOXCyt6J-IoJNzxK58z1wfs7ahsQCYoiGyC9_B9ZRg
+id: node.field_exp_kelt
+field_name: field_exp_kelt
+entity_type: node
+type: string
+settings:
+  max_length: 10
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

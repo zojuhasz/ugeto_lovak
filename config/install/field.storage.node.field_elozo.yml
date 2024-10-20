@@ -1,0 +1,23 @@
+uuid: fe48de5e-6c4a-49e9-9608-8a0547c4e980
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: c8Ejc8rIrUn-kMNFyUIdozFdiJPaCS6_YzFJanT4hdI
+id: node.field_elozo
+field_name: field_elozo
+entity_type: node
+type: string
+settings:
+  max_length: 30
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 9d9ff121-8757-4b6f-baa5-a45380c30a87
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: f-Sl5cW5N2XmdiCt4nleXD91z2vpp8OnmW1Tr0y2MJ8
+id: node.field_egybevetes
+field_name: field_egybevetes
+entity_type: node
+type: string
+settings:
+  max_length: 100
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

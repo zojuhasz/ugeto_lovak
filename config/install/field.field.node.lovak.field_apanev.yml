@@ -1,0 +1,21 @@
+uuid: 31c68b59-e2cc-473e-8cea-b4796c0c7e40
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_apanev
+    - node.type.lovak
+_core:
+  default_config_hash: eVnMLDDtDOZgPPpti87F7kK-5EgTrJLuGi5Xkshc3I4
+id: node.lovak.field_apanev
+field_name: field_apanev
+entity_type: node
+bundle: lovak
+label: apanev
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

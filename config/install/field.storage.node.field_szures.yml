@@ -1,0 +1,23 @@
+uuid: a8326177-3f66-4166-9b37-e1af3c3e0b17
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wMDGnUEUachLIEK5TGINdK2ShJNBIFS7wgZWee4AlAo
+id: node.field_szures
+field_name: field_szures
+entity_type: node
+type: string
+settings:
+  max_length: 10
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

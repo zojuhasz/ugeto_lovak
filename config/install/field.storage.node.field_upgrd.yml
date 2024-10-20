@@ -1,0 +1,23 @@
+uuid: ec67c7f5-5c5e-4c3a-9fcb-bc1669d59fea
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bNyUhDvJ9VqDc60Ub4COXVo0zGC8o9Qt44RcRyf_TCQ
+id: node.field_upgrd
+field_name: field_upgrd
+entity_type: node
+type: string
+settings:
+  max_length: 1
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

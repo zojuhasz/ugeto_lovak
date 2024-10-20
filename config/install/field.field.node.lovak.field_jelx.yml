@@ -1,0 +1,21 @@
+uuid: 4e2bc122-1f12-4c27-9d72-02a09f1f0efc
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jelx
+    - node.type.lovak
+_core:
+  default_config_hash: SPW9rBbgkpMy2CQlfAtj7APwubE8-awvRhWLCHQBKT8
+id: node.lovak.field_jelx
+field_name: field_jelx
+entity_type: node
+bundle: lovak
+label: jelx
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

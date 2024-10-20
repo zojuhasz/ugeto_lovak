@@ -1,0 +1,21 @@
+uuid: 2c55c3d8-f145-4363-adea-dc0a3b0346fb
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rekord_ok
+    - node.type.lovak
+_core:
+  default_config_hash: CVEWNZLdLfeg_BtBQG3jn8KOJHiRFcUYRa-QibaLS8M
+id: node.lovak.field_rekord_ok
+field_name: field_rekord_ok
+entity_type: node
+bundle: lovak
+label: rekord_ok
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

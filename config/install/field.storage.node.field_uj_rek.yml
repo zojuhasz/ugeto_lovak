@@ -1,0 +1,23 @@
+uuid: ae0d1352-8195-47d1-a87f-7bb1caa36a8b
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 5D6eVpMqR2SVotZEiPCGGaMlIZ9byEWYXLSc6o9fDJE
+id: node.field_uj_rek
+field_name: field_uj_rek
+entity_type: node
+type: string
+settings:
+  max_length: 6
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

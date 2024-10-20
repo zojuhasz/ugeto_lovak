@@ -1,0 +1,10 @@
+uuid: 149426f2-c6e3-48e5-9534-3e101d4306e7
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: A79XiS_ZTBQveDCKEfbQtYBU8hKfh0kFeNSMIDF50I0
+name: fedezomen
+vid: fedezomen
+description: ''
+weight: 0

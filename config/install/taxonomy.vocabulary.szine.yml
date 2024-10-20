@@ -1,0 +1,10 @@
+uuid: a25c4d08-f7aa-46b1-9009-f733b492be2a
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MOmnTzD5fzeO0w1M87Eb6znnz8b45CssFr66HrMXZGE
+name: szine
+vid: szine
+description: 'ló színe'
+weight: 0

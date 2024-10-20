@@ -1,0 +1,21 @@
+uuid: e0f376db-f286-4bb9-8f98-7d113b6d8705
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_neve
+    - node.type.lovak
+_core:
+  default_config_hash: RNfTV7rVpRrHHqcxHMO-xQjhMeTunsxfJQA88iVIFUo
+id: node.lovak.field_neve
+field_name: field_neve
+entity_type: node
+bundle: lovak
+label: neve
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 7c879250-65c3-40e5-aa5e-02c09cc0c5fc
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nlkft_iloid
+    - node.type.lovak
+  module:
+    - options
+_core:
+  default_config_hash: xx1Bpbe_HrM6AQUdkyEPsNWJBftWZS84r6Smnly50is
+id: node.lovak.field_nlkft_iloid
+field_name: field_nlkft_iloid
+entity_type: node
+bundle: lovak
+label: nlkft_iloid
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

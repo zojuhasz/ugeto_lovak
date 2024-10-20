@@ -1,0 +1,23 @@
+uuid: 0d7fccf5-188a-4394-b833-0fc90840a122
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: GAQbkmk2WPrzxN_DE_W3kxnmJ-dI8c5vSZtNfl2elyY
+id: node.field_nlkft_iloid
+field_name: field_nlkft_iloid
+entity_type: node
+type: list_integer
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

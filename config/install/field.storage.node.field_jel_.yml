@@ -1,0 +1,23 @@
+uuid: 06f1decc-4842-4809-9fd0-e290d261abb8
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: KjTr2HcrLJsTHh-5QUeNjcljnQ1sSwSsxZ2sRxI4zWE
+id: node.field_jel_
+field_name: field_jel_
+entity_type: node
+type: string
+settings:
+  max_length: 3
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

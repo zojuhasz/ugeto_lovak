@@ -1,0 +1,30 @@
+uuid: 92b0c323-f77c-490b-a46a-fc06a39292e8
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tulaj
+    - node.type.lovak
+    - node.type.tulajdonos
+_core:
+  default_config_hash: oJMp6ERP6QdCXKoOf4qyHNe47RSle3GTvr86bEUn5Bk
+id: node.lovak.field_tulaj
+field_name: field_tulaj
+entity_type: node
+bundle: lovak
+label: tulajdonos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tulajdonos: tulajdonos
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

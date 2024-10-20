@@ -1,0 +1,14 @@
+lovak.default_controller_install:
+  path: '/lovak/install'
+  defaults:
+    _controller: '\Drupal\lovak\Controller\DefaultController::install'
+    _title: 'Install'
+  requirements:
+    _permission: 'access content'
+lovak.default_controller_uninstall:
+  path: '/lovak/uninstall'
+  defaults:
+    _controller: '\Drupal\lovak\Controller\DefaultController::uninstall'
+    _title: 'Uninstall'
+  requirements:
+    _permission: 'access content'    

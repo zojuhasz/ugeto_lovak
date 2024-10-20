@@ -1,0 +1,20 @@
+uuid: 052665c9-76f3-420f-8afa-2451049fb6c5
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_loazon_long
+    - node.type.lovak
+id: node.lovak.field_loazon_long
+field_name: field_loazon_long
+entity_type: node
+type: string
+bundle: lovak
+label: loazon_long
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

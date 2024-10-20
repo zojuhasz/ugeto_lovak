@@ -1,0 +1,10 @@
+uuid: a7774dfa-f4d5-48ee-8d40-19bb8cf116dd
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: afGYYIHoLALlwBGWkydf3YVkKb-hGqkxlx0QfFESx3c
+name: neme
+vid: neme
+description: 'ló neme'
+weight: 0

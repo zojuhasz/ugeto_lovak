@@ -1,0 +1,21 @@
+uuid: 59688643-1d50-4dec-86d7-66d49a29dbea
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_iker
+    - node.type.lovak
+_core:
+  default_config_hash: WLHwCZrUNKnnUcSQfzP_7pn3SYvVw_KM-qDUv7e9t34
+id: node.lovak.field_iker
+field_name: field_iker
+entity_type: node
+bundle: lovak
+label: iker
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

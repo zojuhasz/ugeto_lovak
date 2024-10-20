@@ -1,0 +1,31 @@
+uuid: 1a585821-7da4-4a13-aa6a-2b18096924da
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_szine
+    - node.type.lovak
+    - taxonomy.vocabulary.szine
+_core:
+  default_config_hash: _xx1WqqpIhSf8g-77qO_W0zFiv3VK4jZA4X6qc3JdLE
+id: node.lovak.field_szine
+field_name: field_szine
+entity_type: node
+bundle: lovak
+label: szine
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      szine: szine
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

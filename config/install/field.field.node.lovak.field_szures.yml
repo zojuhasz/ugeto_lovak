@@ -1,0 +1,21 @@
+uuid: 0322840f-a56b-4ba1-8372-a68e52175338
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_szures
+    - node.type.lovak
+_core:
+  default_config_hash: NybnLgUZzvdFq9ocl57IR6tqTRNOWoOxjU_76pTHJZ4
+id: node.lovak.field_szures
+field_name: field_szures
+entity_type: node
+bundle: lovak
+label: szures
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: d3b5aea9-aa12-4b2e-82e6-ef8f0022f73c
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imp_kelt
+    - node.type.lovak
+_core:
+  default_config_hash: GpHZYchHxeT2Ihy371UQs-yTLXc8GPMj42N98_uS7to
+id: node.lovak.field_imp_kelt
+field_name: field_imp_kelt
+entity_type: node
+bundle: lovak
+label: imp_kelt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

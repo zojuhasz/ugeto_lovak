@@ -1,0 +1,23 @@
+uuid: c4ddc1cf-31d2-4d66-aca1-1967fe0171a3
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: OtHZSh2y34XL-DW1tnt_4mbYZmPcF3R50soClZjmzJk
+id: node.field_anyanev
+field_name: field_anyanev
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,31 @@
+uuid: ebe60a10-3983-4dae-aec3-0723eafdccdd
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fedezomen
+    - node.type.lovak
+    - taxonomy.vocabulary.fedezomen
+_core:
+  default_config_hash: fzNcjVaedp4Yg157Um5FZNgWYVYD9Y7-DprJxggMvv4
+id: node.lovak.field_fedezomen
+field_name: field_fedezomen
+entity_type: node
+bundle: lovak
+label: fedezomen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fedezomen: fedezomen
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,31 @@
+uuid: 0a2739f9-cef6-49b3-b749-f356c003ab41
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_orszag
+    - node.type.lovak
+    - taxonomy.vocabulary.orszag
+_core:
+  default_config_hash: LEUVZlKZqspVMHj2j7InCk1lYGRtGezeUkuFWVoNPgg
+id: node.lovak.field_orszag
+field_name: field_orszag
+entity_type: node
+bundle: lovak
+label: orszag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      orszag: orszag
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

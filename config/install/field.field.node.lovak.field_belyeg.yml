@@ -1,0 +1,21 @@
+uuid: f7584a3e-d5d7-4324-892b-6f15e44ca83e
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_belyeg
+    - node.type.lovak
+_core:
+  default_config_hash: vuo2tHBQqAkhU3m4dtEzwNIdogqI1GDl6qiutdGShl4
+id: node.lovak.field_belyeg
+field_name: field_belyeg
+entity_type: node
+bundle: lovak
+label: belyeg
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

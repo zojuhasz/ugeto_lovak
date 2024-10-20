@@ -1,0 +1,118 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function lovak_uninstall() {
+
+ //pusholva?
+ // A tartalomtípus gépi neve, amit törölni szeretnél.
+  $content_type = 'lovak';
+  // Betöltjük az entity_type.manager szolgáltatást.
+  $entity_type_manager = \Drupal::service('entity_type.manager');
+  // Betöltjük a tartalomtípus entity definícióját.
+  $content_type_storage = $entity_type_manager->getStorage('node_type');
+  // Megpróbáljuk betölteni a törölni kívánt tartalomtípust.
+  if ($content_type_entity = $content_type_storage->load($content_type)) {
+    // Töröljük a tartalomtípust.
+    $content_type_entity->delete();
+  }
+
+
+// A tartalomtípus gépi neve, amit törölni szeretnél.
+  $content_type = 'tulajdonos';
+  // Betöltjük az entity_type.manager szolgáltatást.
+  $entity_type_manager = \Drupal::service('entity_type.manager');
+  // Betöltjük a tartalomtípus entity definícióját.
+  $content_type_storage = $entity_type_manager->getStorage('node_type');
+  // Megpróbáljuk betölteni a törölni kívánt tartalomtípust.
+  if ($content_type_entity = $content_type_storage->load($content_type)) {
+    // Töröljük a tartalomtípust.
+    $content_type_entity->delete();
+  }
+
+  
+  
+  //taxonomyk torlese  
+  $vocabulary_machine_name = 'orszag';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+  $vocabulary_machine_name = 'fedezomen';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+  $vocabulary_machine_name = 'fedezomen_valasztas';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+  $vocabulary_machine_name = 'lo_vagy_fed';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+  $vocabulary_machine_name = 'neme';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+  $vocabulary_machine_name = 'szine';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+  $vocabulary_machine_name = 'elfogadas';$vocabulary_storage = \Drupal::entityTypeManager()->getStorage('taxonomy_vocabulary');if ($vocabulary = $vocabulary_storage->load($vocabulary_machine_name)) {$vocabulary->delete();\Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name has been deleted.");}else { \Drupal::messenger()->addMessage("The vocabulary $vocabulary_machine_name does not exist.", 'error');}
+
+
+
+
+// Töröljük a mezőket.
+  $fields = [
+    'field_akti',
+    'field_anya',
+    'field_anyanev',
+    'field_apa',
+    'field_apanev',
+    'field_belyeg',
+    'field_egybevetes',
+    'field_ellet',
+    'field_elozo',
+    'field_ev',
+    'field_exp_kelt',
+    'field_exp_orszag',
+    'field_fedez',
+    'field_fedezomen',
+    'field_herel',
+    'field_iker',
+    'field_imp_kelt',
+    'field_imp_orsz',
+    'field_jegyzet',
+    'field_jel_',
+    'field_jelx',
+    'field_lo_vagy_fed',
+    'field_kimult',
+    'field_loazon',
+    'field_loazon_long',
+    'field_lo_vagy_fed',
+    'field_neme',
+    'field_neve',
+    'field_nevel_tenyeszt',
+    'field_nlkft_iloid',
+    'field_no',
+    'field_orszag',
+    'field_penz',
+    'field_regi_rek',
+    'field_rekord',
+    'field_rekord_ok',
+    'field_szine',
+    'field_szures',
+    'field_transzponder',
+    'field_tulaj',
+    'field_ueln',
+    'field_uj_rek',
+    'field_upgrd',
+    'field_utal'
+ 
+  ];
+
+  foreach ($fields as $field_name) {
+    // Töröljük a mező konfigurációját.
+    if ($field = \Drupal::entityTypeManager()->getStorage('field_config')->load('node.lovak.' . $field_name)) {
+      $field->delete();
+    }
+
+    // Töröljük a mező tároló konfigurációját, ha nincs más entitásban használatban.
+    if ($field_storage = \Drupal::entityTypeManager()->getStorage('field_storage_config')->load('node.' . $field_name)) {
+      $field_storage->delete();
+    }
+  }
+
+  
+
+}
+
+
+
+  
+  
+  
+  

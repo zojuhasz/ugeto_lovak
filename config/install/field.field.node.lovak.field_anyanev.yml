@@ -1,0 +1,21 @@
+uuid: 77b93abc-efb1-487c-8008-f0d74584d879
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anyanev
+    - node.type.lovak
+_core:
+  default_config_hash: yiDYcsvCmLRPWQm10_scYOJEFb87_Uefi-zhO0266Fk
+id: node.lovak.field_anyanev
+field_name: field_anyanev
+entity_type: node
+bundle: lovak
+label: anyanev
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

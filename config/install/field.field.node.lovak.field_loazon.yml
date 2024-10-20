@@ -1,0 +1,21 @@
+uuid: 052665c9-76f3-420f-8afa-2451049fb6c4
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_loazon
+    - node.type.lovak
+_core:
+  default_config_hash: OM_atQAlRKLemtwV6bYG2ErkWWhS784TwfVHSlV8AR4
+id: node.lovak.field_loazon
+field_name: field_loazon
+entity_type: node
+bundle: lovak
+label: loazon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 056ca730-079c-4b78-81b9-0eaabb98ae68
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: npdmsWR8VGUWuojpo-NjIel9cI5E6XGtxGapRxMpEXY
+name: 'Fedezőmén választás'
+vid: fedezomen_valasztas
+description: 'Fedezőmén választás'
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 8f8c202c-bee0-473c-81af-158437dd1421
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: puv9CnisUm7fJzsKNXvBKlGtr0KSER_im-FlzGi7x7A
+id: node.field_szine
+field_name: field_szine
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

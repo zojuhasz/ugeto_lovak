@@ -1,0 +1,23 @@
+uuid: 1d941519-1449-46df-99de-5da26fb676dd
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: dA5vlTnyw7z4_ZmCRzHvEOOFcku0ih3ZZ96TAKBkZf0
+id: node.field_akti
+field_name: field_akti
+entity_type: node
+type: string
+settings:
+  max_length: 5
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

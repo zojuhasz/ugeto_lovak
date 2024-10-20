@@ -1,0 +1,25 @@
+uuid: 09401c18-a939-4660-976a-4c65308df3c1
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ev
+    - node.type.lovak
+_core:
+  default_config_hash: EESg7dyfx34NcGEnO2lwC_7_Ch6jECqAn3SKEZDuWKk
+id: node.lovak.field_ev
+field_name: field_ev
+entity_type: node
+bundle: lovak
+label: ev
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1800
+  max: 2100
+  prefix: ''
+  suffix: ''
+field_type: integer

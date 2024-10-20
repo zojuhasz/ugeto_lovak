@@ -1,0 +1,22 @@
+uuid: 656df396-3a86-4a1f-ae38-1e0607b59316
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: Uh3KBouSc_WTAJNkGRXKA9GkvMNxvf4Apfe2apW2rPc
+id: node.field_fedezomen
+field_name: field_fedezomen
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

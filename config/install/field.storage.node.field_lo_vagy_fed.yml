@@ -1,0 +1,22 @@
+uuid: e151e596-ca52-468f-a6b3-30816418e848
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: U63U9qvvP7eXxWDSixIJ14gg_ppcIFkqUHVzRMv0yLo
+id: node.field_lo_vagy_fed
+field_name: field_lo_vagy_fed
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

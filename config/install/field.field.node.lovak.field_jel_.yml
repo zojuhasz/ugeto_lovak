@@ -1,0 +1,21 @@
+uuid: 42c1e202-bdda-4ed6-8880-043c0e892a6b
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jel_
+    - node.type.lovak
+_core:
+  default_config_hash: 2uXJw_DgEF41g-HwKtWKoGIqw6TV-IAtrv6-aO687aY
+id: node.lovak.field_jel_
+field_name: field_jel_
+entity_type: node
+bundle: lovak
+label: jel_
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

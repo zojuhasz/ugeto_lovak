@@ -1,0 +1,31 @@
+uuid: 6791d5e6-a783-420c-8185-ad2a7161f06d
+langcode: hu
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_neme
+    - node.type.lovak
+    - taxonomy.vocabulary.neme
+_core:
+  default_config_hash: DljOWhc7WdJb9fZqn9EPNnAtmgKcwTBiT3vkIKejI94
+id: node.lovak.field_neme
+field_name: field_neme
+entity_type: node
+bundle: lovak
+label: neme
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      neme: neme
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
